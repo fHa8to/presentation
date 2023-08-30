@@ -9,7 +9,7 @@ using UnityEngine.SceneManagement;
 public class eye : MonoBehaviour
 {
 
-    [SerializeField] private GameObject b = GameObject.Find("ƒQ[ƒ€ƒLƒƒƒ‰2");
+    [SerializeField] private GameObject b ;
 
     public void Update()
     {

@@ -8,7 +8,7 @@ using UnityEngine.SceneManagement;
 
 public class hana : MonoBehaviour
 {
-    [SerializeField] private GameObject c = GameObject.Find("ƒQ[ƒ€ƒLƒƒƒ‰3");
+    [SerializeField] private GameObject c ;
 
     void Update()
     {

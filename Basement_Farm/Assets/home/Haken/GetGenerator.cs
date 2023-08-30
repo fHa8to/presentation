@@ -55,12 +55,12 @@ public class GetGenerator : MonoBehaviour
             if (rand < 10)
             {
                 item2.SetActive(true);
-                item02 += 1;
+                item02 += 10;
 
                 if (rand < 5)
                 {
                     item3.SetActive(true);
-                    item03 += 1;
+                    item03 += 5;
                 }
             }
 
@@ -74,12 +74,12 @@ public class GetGenerator : MonoBehaviour
             if (rand < 40)
             {
                 item1.SetActive(true);
-                item01 += 1;
+                item01 += 5;
 
                 if (rand < 35)
                 {
                     item3.SetActive(true);
-                    item03 += 1;
+                    item03 += 10;
                 }
             }
 
@@ -93,12 +93,12 @@ public class GetGenerator : MonoBehaviour
             if (rand < 70)
             {
                 item1.SetActive(true);
-                item01 += 1;
+                item01 += 10;
 
                 if (rand < 65)
                 {
                     item2.SetActive(true);
-                    item02 +=1;
+                    item02 +=5;
                 }
             }
 
