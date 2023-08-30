@@ -46,11 +46,6 @@ public class GetGenerator : MonoBehaviour
         Debug.Log(ran);
 
         
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
         if (rand < 30)
         {
             //1‚Â–Ú
@@ -126,17 +121,17 @@ public class GetGenerator : MonoBehaviour
       
         else if(ran < 20)
         {
-            character3.SetActive(true);
+            character2.SetActive(true);
             chara2Selection.Chara2 += 1;
         }
         else if(ran < 30)
         {
-            character4.SetActive(true);
+            character3.SetActive(true);
             chara3Selection.Chara3 += 1;
         }
         else if (ran < 40)
         {
-            character2.SetActive(true);
+            character4.SetActive(true);
             hirusuke.Chara4 += 1;
         }
         else if(ran < 50)
